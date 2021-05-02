@@ -9,11 +9,8 @@ import Portfolio from './components/Portfolio';
 
 function App() {
   const [aboutSelected, setAboutSelected] = useState(true);
-
   const [contactSelected, setContactSelected] = useState(false);
-
   const [portfolioSelected, setPortfolioSelected] = useState(false);
-
   const [resumeSelected, setResumeSelected] = useState(false);
 
 
@@ -30,8 +27,25 @@ function App() {
         setResumeSelected={setResumeSelected}
       ></Nav>
       <main>
-        <About></About>
+        {contactSelected 
+        ? (<> <ContactForm></ContactForm> </>) 
+        : (<> </>)}
+        {aboutSelected 
+        ? (<> <About></About> </>) 
+        : (<> </>)}
+        {portfolioSelected 
+        ? (<> <Portfolio></Portfolio> </>) 
+        : (<> </>)}
+        {resumeSelected 
+        ? (<> <Resume></Resume> </>) 
+        : (<> </>)}
+
       </main>
+      <footer className="App">
+        <span></span>
+        <span></span>
+        <span></span>
+      </footer>
     </div>
   );
 }

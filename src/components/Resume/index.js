@@ -1,10 +1,33 @@
 import React from 'react'
 
 function Resume() {
-    return(
-        <div>
-
-        </div>
+    return (
+        <section id="resume">
+            <h1>RESUME</h1>
+            <h2>Links</h2>
+            <a href='https://docs.google.com/document/d/18HlNsfF3Eeo9ULCf2gmQ5N-PMK4O54SpGQH_bQE0Jgc/edit?usp=sharing' target="_blank" rel="noreferrer">
+                Resume Link
+            </a>
+            <h2>Front-end Proficiencies</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>javaScript</li>
+                <li>jQuery</li>
+                <li>responisive design</li>
+                <li>React</li>
+                <li>Bootstrap</li>
+            </ul>
+            <h2>Back-end Proficiencies</h2>
+            <ul>
+                <li>APIs</li>
+                <li>Node</li>
+                <li>Express</li>
+                <li>MySql, Sequelize</li>
+                <li>MongoDB, Mongoose</li>
+                <li>REST</li>
+            </ul>
+        </section>
     );
 }
 

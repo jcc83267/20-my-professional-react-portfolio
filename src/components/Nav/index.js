@@ -13,9 +13,6 @@ function Nav(props) {
 
     } = props;
 
-    
-    
-
     return (
         <header className="flex-row px-1">
             <h2>
