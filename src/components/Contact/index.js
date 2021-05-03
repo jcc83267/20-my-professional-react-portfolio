@@ -21,7 +21,7 @@ function ContactForm() {
       } else {
         setErrorMessage('');
       }
-    } else if(e.target === 'name') {
+    } else if(e.target.name === 'name') {
       if (!e.target.value.length) {
         setErrorMessage(`${e.target.name} is required.`);
       } else {

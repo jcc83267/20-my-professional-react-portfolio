@@ -36,7 +36,7 @@ body {
   letter-spacing: .1em;
   background: var(--dark);
   color: var(--light);
-  font-family: 'Poiret One', cursive;
+  font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -293,3 +293,70 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+.bannerBG{
+  background-image: url(./assets/images/banner/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bannerContainer{
+  height: 20vh;
+  width: 100%;
+}
+.divBG {
+  border-style: dashed red 1px;
+  height: 50vh;
+  left: 1%;
+  right: 1%;
+}
+
+.project0 {
+  background-image: url(./assets/images/website-screenshots/0.png.png);
+  height: 50vh;
+  left: 1%;
+  right: 1%;
+  object-fit: cover;
+}
+.project1 {
+  background-image: url(./assets/images/website-screenshots/1.png.png);
+  height: 50vh;
+  left: 1%;
+  right: 1%;
+  object-fit: cover;
+}
+.project2 {
+  background-image: url(./assets/images/website-screenshots/2.png.png);
+  height: 50vh;
+  left: 1%;
+  right: 1%;
+  object-fit: cover;
+}
+.project3 {
+  background-image: url(./assets/images/website-screenshots/3.png.png);
+  height: 50vh;
+  left: 1%;
+  right: 1%;
+  object-fit: cover;
+}
+.project4 {
+  background-image: url(./assets/images/website-screenshots/4.png.png);
+  height: 50vh;
+  left: 1%;
+  right: 1%;
+  object-fit: cover;
+}
+.project5 {
+  background-image: url(./assets/images/website-screenshots/5.png.png);
+  height: 50vh;
+  left: 1%;
+  right: 1%;
+  object-fit: cover;
+}
+
+.portfolioBox{
+  padding-left: 10px;
+}
+
+
