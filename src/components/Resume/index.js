@@ -5,7 +5,7 @@ function Resume() {
         <section id="resume">
             <h1>RESUME</h1>
             <h2>Links</h2>
-            <a href='https://docs.google.com/document/d/18HlNsfF3Eeo9ULCf2gmQ5N-PMK4O54SpGQH_bQE0Jgc/edit?usp=sharing' target="_blank" rel="noreferrer">
+            <a href='https://docs.google.com/document/d/1l755J1tcfGE07MHBPLrP0dqeLAWNfwU8UNCIAvvRwhA/edit?usp=sharing' target="_blank" rel="noreferrer">
                 Resume Link
             </a>
             <h2>Front-end Proficiencies</h2>
