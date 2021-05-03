@@ -367,3 +367,17 @@ a {
   height: "75px";
   width: "100%";
 }
+
+.icons {
+  height: 80px;
+  width: 80px;
+  position: sticky;
+  bottom: 0;
+}
+
+footer img {
+  max-height: 70px;
+  max-width: 70px;
+  width: 70px;
+  height: 70px;
+}

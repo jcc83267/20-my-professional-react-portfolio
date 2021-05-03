@@ -5,6 +5,9 @@ import About from './components/About';
 import Resume from './components/Resume';
 import ContactForm from './components/Contact';
 import Portfolio from './components/Portfolio';
+import githubIcon from './assets/images/icons/github.png'
+import linkedinIcon from './assets/images/icons/linkedin.png'
+import stackIcon from './assets/images/icons/stack.png'
 
 
 function App() {
@@ -18,7 +21,7 @@ function App() {
     padding: "20px",
     position: "fixed",
     left: "0",
-    bottom: "0",
+    bottom:"20px",
     height: "75px",
     width: "100%",
   };
@@ -51,9 +54,12 @@ function App() {
       </main>
       <footer className="App" style={style}>
         <span>
-        <a href="https://github.com/jcc83267" target="_blank" rel="noreferrer">Github </a>
-        <a href="https://www.linkedin.com/in/james-canlas-426728b7/" target="_blank" rel="noreferrer">LinkedIn </a>
-        <a href="https://stackoverflow.com/users/15820853/jcc83267" target="_blank" rel="noreferrer">stackoverflow </a>
+        <a href="https://github.com/jcc83267" className="icons" target="_blank" rel="noreferrer">
+          <img src={githubIcon} alt="Github icon with link"></img></a>
+        <a href="https://www.linkedin.com/in/james-canlas-426728b7/" className="icons" target="_blank" rel="noreferrer">
+          <img src={linkedinIcon} alt="linkedin icon with link"></img></a>
+        <a href="https://stackoverflow.com/users/15820853/jcc83267" className="icons" target="_blank" rel="noreferrer">
+          <img src={stackIcon} alt="Stackoverflow icon with link"></img></a>
         </span>
       </footer>
     </div>

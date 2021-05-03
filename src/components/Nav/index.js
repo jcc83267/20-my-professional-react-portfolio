@@ -16,7 +16,7 @@ function Nav(props) {
     return (
         <header className="flex-row px-1 bannerBG bannerContainer">
             <h2>
-                <a href="/">
+                <a>
                     <span role="img" aria-label="portfolio">{" "}📁</span>{" "}James Canlas Jr
                 </a>
             </h2>
