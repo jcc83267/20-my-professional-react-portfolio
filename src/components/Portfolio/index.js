@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 function Portfolio() {
     const [projects] = useState([
         {
-            name: "The Bloc",
+            name: "Bloc",
             deployedLink: "https://the-bloc.herokuapp.com/",
             githubLink: "https://github.com/jcc83267/Hrd-Cpy",
             imgId: 0

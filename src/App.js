@@ -13,7 +13,7 @@ function App() {
   const [portfolioSelected, setPortfolioSelected] = useState(false);
   const [resumeSelected, setResumeSelected] = useState(false);
 
-  var style = {
+  const style = {
     textAlign: "center",
     padding: "20px",
     position: "fixed",
@@ -51,8 +51,9 @@ function App() {
       </main>
       <footer className="App" style={style}>
         <span>
-        <span>Github </span>
-        <span>LinkedIn</span>
+        <a href="https://github.com/jcc83267" target="_blank" rel="noreferrer">Github </a>
+        <a href="https://www.linkedin.com/in/james-canlas-426728b7/" target="_blank" rel="noreferrer">LinkedIn </a>
+        <a href="https://stackoverflow.com/users/15820853/jcc83267" target="_blank" rel="noreferrer">stackoverflow </a>
         </span>
       </footer>
     </div>
