@@ -65,7 +65,6 @@ function Portfolio() {
             onClick={()=> window.open(`${project.deployedLink}`, "_blank")}
             ></div>
             <br/>
-            <div>test</div>
         </div>
     )
     console.log(projects[1].name)
