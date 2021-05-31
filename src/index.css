@@ -15,7 +15,6 @@ main {
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
-
 }
 
 * {
@@ -306,12 +305,12 @@ a {
   width: 100%;
 }
 .divBG {
-  border-style: dashed red 1px;
   height: 50vh;
   left: 1%;
   right: 1%;
+  object-fit: cover;
 }
-.project0 {
+/* .project0 {
   background-image: url(./assets/images/website-screenshots/6.png);
   height: 50vh;
   left: 1%;
@@ -359,7 +358,8 @@ a {
   left: 1%;
   right: 1%;
   object-fit: cover;
-}
+} */
+
 .portfolioBox{
   padding-left: 10px;
 }

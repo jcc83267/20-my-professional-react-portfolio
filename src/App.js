@@ -50,7 +50,6 @@ function App() {
         {resumeSelected 
         ? (<> <Resume></Resume> </>) 
         : (<> </>)}
-
       </main>
       <footer className="App" style={style}>
         <span>

@@ -1,4 +1,11 @@
 import React, { useState } from 'react'
+import img0 from '../../assets/images/website-screenshots/0.png.png'
+import img1 from '../../assets/images/website-screenshots/1.png.png'
+import img2 from '../../assets/images/website-screenshots/2.png.png'
+import img3 from '../../assets/images/website-screenshots/3.png.png'
+import img4 from '../../assets/images/website-screenshots/4.png.png'
+import img5 from '../../assets/images/website-screenshots/5.png.png'
+import img6 from '../../assets/images/website-screenshots/6.png.png'
 
 function Portfolio() {
     const [projects] = useState([
@@ -6,37 +13,37 @@ function Portfolio() {
             name: "The Bloc(complete overhaul of Bloc)",
             deployedLink: "https://the-bloc.herokuapp.com/",
             githubLink: "https://github.com/jmrendon48/bloc-2.0",
-            imgId: 0
+            imgId: img6
         },{
             name: "Bloc",
             deployedLink: "https://bloc-v1.herokuapp.com/",
             githubLink: "https://github.com/jcc83267/Hrd-Cpy",
-            imgId: 1
+            imgId: img0
         }, {
             name: "Budget Tracker",
             deployedLink: "https://jcc83267-budget-tracker.herokuapp.com/",
             githubLink: "https://github.com/jcc83267/19-Budget-Tracker",
-            imgId: 2
+            imgId: img1
         }, {
             name: "Event Planner",
             deployedLink: "https://jcc83267.github.io/Event-Planner/",
             githubLink: "",
-            imgId: 3
+            imgId: img2
         }, {
             name: "Weather Dashboard",
             deployedLink: "https://jcc83267.github.io/06-Weather-Dashboard/",
             githubLink: "https://github.com/jcc83267/06-Weather-Dashboard",
-            imgId: 4
+            imgId: img3
         }, {
             name: "Work Day Scheduler",
             deployedLink: "https://jcc83267.github.io/05-Work-Day-Scheduler/",
             githubLink: "https://github.com/jcc83267/05-Work-Day-Scheduler",
-            imgId: 5
+            imgId: img4
         }, {
             name: "Runbuddy",
             deployedLink: "https://the-bloc.herokuapp.com/",
             githubLink: "https://jcc83267.github.io/run-buddy/",
-            imgId: 6
+            imgId: img5
         }
     ])
     const listProjects = projects.map((project, i) =>
@@ -51,8 +58,14 @@ function Portfolio() {
                         github link
                     </a></span>
                                                
-            <div className={`project${i} divBG`}></div>
+            <div className='divBG'
+            style={{
+                backgroundImage: `url(${project.imgId})`
+            }}
+            onClick={()=> window.open(`${project.deployedLink}`, "_blank")}
+            ></div>
             <br/>
+            <div>test</div>
         </div>
     )
     console.log(projects[1].name)
