@@ -19,5 +19,5 @@ This project was made using react to display a single page application of my por
 
 
 ## Links
-[Repo Link](https://github.com/jcc83267/19-Budget-Tracker)  
-[Deployed Site Link](https://jcc83267-budget-tracker.herokuapp.com/) 
+[Repo Link](https://github.com/jcc83267/20-my-professional-react-portfolio)  
+[Deployed Site Link](https://jcc83267.github.io/20-my-professional-react-portfolio/) 
