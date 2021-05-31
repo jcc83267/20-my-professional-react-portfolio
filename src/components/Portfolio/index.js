@@ -9,7 +9,7 @@ function Portfolio() {
             imgId: 0
         },{
             name: "Bloc",
-            deployedLink: "https://the-bloc.herokuapp.com/",
+            deployedLink: "https://bloc-v1.herokuapp.com/",
             githubLink: "https://github.com/jcc83267/Hrd-Cpy",
             imgId: 1
         }, {
