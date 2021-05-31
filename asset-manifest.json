@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/20-my-professional-react-portfolio/static/css/main.ea094c99.chunk.css",
-    "main.js": "/20-my-professional-react-portfolio/static/js/main.0264865d.chunk.js",
-    "main.js.map": "/20-my-professional-react-portfolio/static/js/main.0264865d.chunk.js.map",
+    "main.css": "/20-my-professional-react-portfolio/static/css/main.09299f12.chunk.css",
+    "main.js": "/20-my-professional-react-portfolio/static/js/main.47e6683b.chunk.js",
+    "main.js.map": "/20-my-professional-react-portfolio/static/js/main.47e6683b.chunk.js.map",
     "runtime-main.js": "/20-my-professional-react-portfolio/static/js/runtime-main.dac8eaff.js",
     "runtime-main.js.map": "/20-my-professional-react-portfolio/static/js/runtime-main.dac8eaff.js.map",
     "static/js/2.1ad9b0a7.chunk.js": "/20-my-professional-react-portfolio/static/js/2.1ad9b0a7.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.8f5f450a.chunk.js": "/20-my-professional-react-portfolio/static/js/3.8f5f450a.chunk.js",
     "static/js/3.8f5f450a.chunk.js.map": "/20-my-professional-react-portfolio/static/js/3.8f5f450a.chunk.js.map",
     "index.html": "/20-my-professional-react-portfolio/index.html",
-    "static/css/main.ea094c99.chunk.css.map": "/20-my-professional-react-portfolio/static/css/main.ea094c99.chunk.css.map",
+    "static/css/main.09299f12.chunk.css.map": "/20-my-professional-react-portfolio/static/css/main.09299f12.chunk.css.map",
     "static/js/2.1ad9b0a7.chunk.js.LICENSE.txt": "/20-my-professional-react-portfolio/static/js/2.1ad9b0a7.chunk.js.LICENSE.txt",
     "static/media/index.css": "/20-my-professional-react-portfolio/static/media/banner.a1c170e3.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.dac8eaff.js",
     "static/js/2.1ad9b0a7.chunk.js",
-    "static/css/main.ea094c99.chunk.css",
-    "static/js/main.0264865d.chunk.js"
+    "static/css/main.09299f12.chunk.css",
+    "static/js/main.47e6683b.chunk.js"
   ]
 }
