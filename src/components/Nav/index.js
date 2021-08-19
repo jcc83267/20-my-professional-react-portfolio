@@ -34,7 +34,7 @@ function Nav(props) {
                     </li>
                     <li className={`mx-2 ${contactSelected && 'navActive'}`}>
                         <span onClick={() => {setAboutSelected(false); setContactSelected(true); setPortfolioSelected(false); setResumeSelected(false)}}>
-                            Contact
+                            Contacts
                         </span>
                     </li>
                     <li className={`mx-2 ${resumeSelected && 'navActive'}`}>

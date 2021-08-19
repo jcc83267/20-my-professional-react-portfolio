@@ -47,7 +47,7 @@ function ContactForm() {
 
   return (
     <section>
-      <h1>Contact me</h1>
+      {/* <h1>Contact me</h1>
       <form id="contact-form">
         <div>
           <label htmlFor="name">Name:</label>
@@ -67,7 +67,13 @@ function ContactForm() {
           </div>
         )}
         <button type="submit" onSubmit={handleSubmit}>Submit</button>
-      </form>
+      </form> */}
+    <div>Contacts</div>
+    <ul>
+      <li><a href="mailto: jcc83267@gmail.com">Email: jcc83267@gmail.com</a> </li>
+      <li><a href="https://github.com/jcc83267">GitHub: https://github.com/jcc83267</a></li>
+      <li><a href="https://www.linkedin.com/in/james-canlas-426728b7/">Linkedin : https://www.linkedin.com/in/james-canlas-426728b7/</a></li>
+    </ul>
     </section>
   );
 }
