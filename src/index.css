@@ -10,6 +10,7 @@ main {
   --light: #dddbf1ff;
   --primary: #f16953;
   --secondary: #fcb819;
+  --text: #bfb5af;
   --darker: #111111;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -34,7 +35,7 @@ body {
   font-size: 18px;
   letter-spacing: .1em;
   background: var(--dark);
-  color: var(--light);
+  color: var(--text);
   font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -379,6 +380,10 @@ a {
   width: 80px;
   position: sticky;
   bottom: 0;
+}
+
+.description-text{
+  color: var(--light);
 }
 
 footer img {
